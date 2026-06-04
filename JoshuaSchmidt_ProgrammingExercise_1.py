@@ -2,7 +2,7 @@
 
 # Number of tickets purchased
 def buy_tickets():
-    tickets = int(input("How many tickets would you like to buy (1-4): "))
+    tickets = int(input("How many tickets would you like to purchase (1-4)?: "))
     return tickets
 
 # Number of tickets sold.
