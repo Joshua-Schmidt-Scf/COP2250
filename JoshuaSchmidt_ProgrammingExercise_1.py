@@ -7,7 +7,7 @@ def buy_tickets():
 
 # Number of tickets sold.
 def sold_tickets():
-    total_tickets = 20
+    total_tickets = 10
     buyer_count = 0
 
 # Loop to process ticket sales
