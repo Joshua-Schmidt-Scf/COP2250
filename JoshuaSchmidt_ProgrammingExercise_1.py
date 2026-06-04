@@ -8,7 +8,7 @@ def buy_tickets():
 # Number of tickets sold.
 def sold_tickets():
     total_tickets = 10
-    buyer_count = 0
+    total_buyers = 0
 
 # Loop to process ticket sales
     while total_tickets > 0:
@@ -24,13 +24,13 @@ def sold_tickets():
 
         else:
             total_tickets -= request
-            buyer_count += 1
+            total_buyers += 1
 
             print("Ticket purchase completed.")
             print("Remaining tickets:", total_tickets)
 
     print("\nAll tickets have been purchased.")
-    print("Total number of buyers:", buyer_count)
+    print("Total number of buyers:", total_buyers)
 
 # Program to
 sold_tickets()
